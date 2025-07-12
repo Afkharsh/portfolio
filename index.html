@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio</title>
+  <title>My IoT Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo">Harsh</div>
+      <div class="logo">Afkharsh</div>
       <ul>
-        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -19,41 +18,45 @@
     </nav>
   </header>
 
-  <section id="home" class="section fade-in">
-    <h1>👋 Hi, I'm Harsh</h1>
-    <p>Electronics | Robotics | Coding </p>
-  </section>
+  <main>
+    <section id="about" class="section fade-in">
+      <h2>About Me</h2>
+      <p>
+        I'm an IoT enthusiast passionate about building smart systems that improve everyday life.
+        I love working with microcontrollers, sensors, and cloud platforms to bring ideas to life.
+      </p>
+    </section>
 
-  <section id="about" class="section fade-in">
-    <h2>About me </h2>
-    <p>Hi, I’m Harsh! 👋 a student into engineering. I’ve built multiple projects, mostly electronics projects, and I’m learning about military tech especially aviation and weapons.
-I’m passionate about coding and building things with technology. I enjoy working on projects that bring together software and electronics to create something meaningful..</p>
-  </section>
+    <section id="projects" class="section fade-in">
+      <h2>Projects</h2>
 
-  <section id="projects" class="section fade-in">
-    <h2>Featured Projects</h2>
+      <!-- 🔽 COPY THIS BLOCK FOR EACH PROJECT 🔽 -->
+      <div class="project">
+        <!-- For image -->
+        <!-- <img src="assets/your-image.jpg" alt="Project Title" /> -->
 
-    <!-- Project Card Start -->
-    <div class="project">
-      <img src="assets/iot-project.jpg" alt="Smart Home Monitor">
-      <div>
-        <h3>Arduino Bluetooth car</h3>
-        <p><strong>Description:</strong>This is the Wifi deauther that I have  builded in past it can perform several task like Scan for WiFi networks and clients..</p>
-        <p><strong>Technologies:</strong> ESP2866</p>
-        <a href="https://x.com/Harsh_khanna__/status/1863614728326746150" target="_blank">🔗 View on Twitter</a>
+        <!-- For video -->
+        <!-- <video controls width="320" height="200" poster="assets/thumb.jpg">
+          <source src="assets/your-video.mp4" type="video/mp4" />
+        </video> -->
+
+        <div>
+          <h3>Project Title</h3>
+          <p><strong>Description:</strong> Your project description here.</p>
+          <p><strong>Technologies:</strong> ESP32, Arduino, etc.</p>
+          <a href="https://github.com/yourusername/project-link" target="_blank">🔗 GitHub Repo</a>
+        </div>
       </div>
-    </div>
-    <!-- Project Card End -->
+      <!-- 🔼 COPY BLOCK ENDS HERE 🔼 -->
 
-    <!-- Copy the block above to add more projects -->
+    </section>
 
-  </section>
-
-  <section id="contact" class="section fade-in">
-    <h2>Contact Me</h2>
-    <p>📧 Email: your.email@example.com</p>
-    <p>🔗 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-  </section>
+    <section id="contact" class="section fade-in">
+      <h2>Contact</h2>
+      <p>Email: your.email@example.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
